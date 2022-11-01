@@ -4,3 +4,7 @@ twitter screenshots:
 
   10 fun facts:
   https://twitter.com/kwbroman/status/1326678636649394176
+
+  peerj preprint:
+  https://peerj.com/preprints/3183/
+  doi:10.7287/peerj.preprints.3183v2
