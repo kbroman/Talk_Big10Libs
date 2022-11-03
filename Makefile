@@ -1,10 +1,10 @@
 STEM = oa2022
 
+all: $(STEM).pdf notes web
+notes: $(STEM)_notes.pdf
+
 $(STEM).pdf: $(STEM).tex header.tex
 	xelatex $<
-
-notes: $(STEM)_notes.pdf
-all: $(STEM).pdf notes web
 
 $(STEM)_notes.pdf: $(STEM)_notes.tex header.tex
 	xelatex $(STEM)_notes
