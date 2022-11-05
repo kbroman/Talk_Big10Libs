@@ -1,14 +1,11 @@
 ## The culture of open scholarship
 
-These are slides for a talk of open scholarship for the Big 10
-Academic Alliance libraries, on 14 Nov 2022.
-
+These are slides for a talk on open scholarship for the [Big 10
+Academic Alliance](https://btaa.org) libraries, on 14 Nov 2022.
 
 - Slides (pdf): <https://kbroman.org/Talk_Big10Libs/oa2022.pdf>
 
 - Slides with notes (pdf): <https://kbroman.org/Talk_Big10Libs/oa2022_notes.pdf>
-
-
 
 ---
 
