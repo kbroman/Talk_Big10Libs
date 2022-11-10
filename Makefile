@@ -1,4 +1,4 @@
-STEM = oa2022
+STEM = oa2023
 
 all: $(STEM).pdf notes web
 notes: $(STEM)_notes.pdf
