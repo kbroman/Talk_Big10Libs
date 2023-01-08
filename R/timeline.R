@@ -7,10 +7,10 @@ red <- broman::brocolors("web")["red"]
 gray <- broman::brocolors("web")["gray"]
 orange <- broman::brocolors("web")["orange"]
 
-pdf(here("Figs/timeline.pdf"), height=4.2, width=9.5, pointsize=16)
+pdf(here("Figs/timeline.pdf"), height=5.2, width=9.5, pointsize=16)
 par(bty="n", mar=rep(0,4))
 plot(0,0,type="n", xaxt="n", yaxt="n", xlab="", ylab="",
-     xaxs="i", yaxs="i", xlim=c(1987.5, 2023), ylim=c(100/6+7,100-7))
+     xaxs="i", yaxs="i", xlim=c(1987.5, 2023), ylim=c(7,100-7))
 y <- 80
 yh <- 5
 rect(1988+1/12, y-yh, 1992-1/12, y+yh, col=orange, border=orange, lend="round")
@@ -53,7 +53,7 @@ text((2004+2010)/2, y, "ae genetics", col="white")
 rect(2016-1/2, y-yh, 2021, y+yh, col=gray, border=gray, lend="round")
 text((2016+2021)/2, y, "se genetics", col="white")
 
-y <- y-yh*2.1
+y <- y-yh*1.6
 arrowh <- yh*1.5
 arrows(1996, y-arrowh, 1996, y, len=0.1, lwd=2)
 text(1996, y-arrowh*1.3, "1996\nJ Stat Soft", adj=c(0.5, 1))
@@ -67,7 +67,7 @@ arrows(x, y-arrowh-yadj, x, y-yadj, len=0.1, lwd=2)
 text(x, y-arrowh*1.3-yadj, "2003\nPLOS Biology", adj=c(0.5, 1))
 
 x <- 2007
-yadj <- arrowh*3.5
+yadj <- arrowh*3.2
 arrows(x, y-arrowh-yadj, x, y-yadj, len=0.1, lwd=2)
 text(x, y-arrowh*1.3-yadj, "2007\nNIH policy on\nPubMed Central", adj=c(0.5, 1))
 
@@ -84,9 +84,14 @@ text(x, y-arrowh*1.3-yadj, "2013\nbioRxiv", adj=c(0.5, 1))
 
 
 x <- 2012
-yadj <- arrowh*3.5
+yadj <- arrowh*3.2
 arrows(x, y-arrowh-yadj, x, y-yadj, len=0.1, lwd=2)
 text(x, y-arrowh*1.3-yadj, "2012\nPeerJ\n& eLife", adj=c(0.5, 1))
+
+x <- 2013
+yadj <- arrowh*7
+arrows(x, y-arrowh-yadj, x, y-yadj, len=0.1, lwd=2)
+text(x, y-arrowh*1.3-yadj, "2013\nU California\nOA policy", adj=c(0.5, 1))
 
 
 
