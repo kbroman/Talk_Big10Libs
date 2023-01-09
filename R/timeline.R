@@ -71,11 +71,23 @@ yadj <- arrowh*3.2
 arrows(x, y-arrowh-yadj, x, y-yadj, len=0.1, lwd=2)
 text(x, y-arrowh*1.3-yadj, "2007\nNIH policy on\nPubMed Central", adj=c(0.5, 1))
 
+x <- 2001
+arrows(x, y-arrowh-yadj, x, y-yadj, len=0.1, lwd=2)
+text(x, y-arrowh*1.3-yadj, "2001\nCreative\nCommons", adj=c(0.5, 1))
+
+x <- 2016
+arrows(x, y-arrowh-yadj, x, y-yadj, len=0.1, lwd=2)
+text(x, y-arrowh*1.3-yadj, "2016\nPsyArXiv", adj=c(0.5, 1))
+
 x <- 1991
 yadj <- 0
 arrows(x, y-arrowh-yadj, x, y-yadj, len=0.1, lwd=2)
 text(x, y-arrowh*1.3-yadj, "1991\narXiv", adj=c(0.5, 1))
 
+
+x <- 2019
+arrows(x, y-arrowh-yadj, x, y-yadj, len=0.1, lwd=2)
+text(x, y-arrowh*1.3-yadj, "2019\nmedRxiv\n& EdArXiv", adj=c(0.5, 1))
 
 x <- 2013
 yadj <- 0
