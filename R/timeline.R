@@ -19,10 +19,10 @@ text((1988+1992)/2, y, "undergrad", col="white")
 rect(1992+1/12, y-yh, 1997-1/12, y+yh, col=purple, border=purple, lend="round")
 text((1992+1997)/2, y, "grad school", col="white")
 
-rect(1997+1/12, y-yh, 1999-1/12, y+yh, col=blue, border=blue, lend="round")
+rect(1997+1/12, y-yh, 1999-1/12, y+yh, col=green, border=green, lend="round")
 text(1998, y, "postdoc", col="white", cex=0.6)
 
-rect(1999+1/12, y-yh, 2007-1/12, y+yh, col=green, border=green, lend="round")
+rect(1999+1/12, y-yh, 2007-1/12, y+yh, col=blue, border=blue, lend="round")
 text((1999+2007)/2, y, "johns hopkins", col="white")
 
 rect(2007+1/12, y-yh, 2023-1/2, y+yh, col=red, border=red, lend="round")
